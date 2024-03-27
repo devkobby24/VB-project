@@ -88,10 +88,30 @@ Public Class Form1
     End Sub
 
     Private Sub nextButton_Click(sender As Object, e As EventArgs) Handles nextButton.Click
+
+
+        benzRadioButton.Checked = False
+        standardRadioButton.Checked = False
+        pearlRadioButton.Checked = False
+        detailingRadioButton.Checked = False
+        stereoCheckBox.Checked = False
+        leatherCheckBox.Checked = False
+        gpsCheckBox.Checked = False
+        lexusRadioButton.Checked = False
+        toyotaRadioButton.Checked = False
+        vwRadioButton.Checked = False
+        camaroRadioButton.Checked = False
+        hondaRadioButton.Checked = False
+        allowanceTextBox.Clear()
+        totalTextBox.Clear()
+        subtotalTextBox.Clear()
+        amountdueTextBox.Clear()
+
         no_of_sales += 1
         total_car_sales += Amount_due
         noofsalesTextBox.Text = no_of_sales
         totalcarsalesTextBox.Text = total_car_sales.ToString("c2")
-        clearButton.PerformClick()
+
+
     End Sub
 End Class
