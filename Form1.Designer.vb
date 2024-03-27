@@ -81,10 +81,10 @@ Partial Class Form1
         camaroRadioButton.AutoSize = True
         camaroRadioButton.Location = New Point(392, 67)
         camaroRadioButton.Name = "camaroRadioButton"
-        camaroRadioButton.Size = New Size(190, 20)
+        camaroRadioButton.Size = New Size(188, 20)
         camaroRadioButton.TabIndex = 5
         camaroRadioButton.TabStop = True
-        camaroRadioButton.Text = "Chevroley Camaro ($49,890)"
+        camaroRadioButton.Text = "Chevrolet Camaro ($49,890)"
         camaroRadioButton.UseVisualStyleBackColor = True
         ' 
         ' benzRadioButton
