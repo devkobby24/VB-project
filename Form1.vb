@@ -124,7 +124,7 @@ Public Class Form1
 
 
         If Amount_due = 0 Then
-            no_of_sales += 0
+            no_of_sales = no_of_sales
         Else
             no_of_sales += 1
         End If
